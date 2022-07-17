@@ -146,7 +146,7 @@ section {
     padding: 30px;
     font-size: 9rem;
     opacity: 0;
-    animation: 1s fadeInFromBottom cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
+    animation: 1s fadeInFromBot cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
     animation-delay: .8s; }
 
 .jumbotron-single h1 {
