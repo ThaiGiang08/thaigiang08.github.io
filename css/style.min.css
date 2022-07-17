@@ -25,6 +25,11 @@ h6,
   font-family: 'Work Sans', sans-serif;
   margin-top: 0; }
 
+.timeText,
+.dateText {
+  font-family: 'Work Sans', sans-serif;
+  margin-top: 0; }
+
 a {
   color: #ff00cc;
   transition: all .3s ease-in-out; }
