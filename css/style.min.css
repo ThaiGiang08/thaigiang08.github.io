@@ -140,17 +140,6 @@ section {
     animation: 1s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
     animation-delay: .8s; }
 
-  .jumbotron h2 {
-    line-height: .9;
-    font-weight: bold;
-    display: inline-block;
-    border: 15px solid #fff;
-    padding: 30px;
-    font-size: 9rem;
-    opacity: 0;
-    animation: 1s fadeInFromBot cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
-    animation-delay: .8s; }
-
 .jumbotron-single h1 {
   font-size: 3rem !important; }
 
