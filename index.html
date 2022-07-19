@@ -22,7 +22,7 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Work+Sans:300,400,700" rel="stylesheet">
 
-    <!-- CSS -->
+    <!-- Main CSS -->
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -85,7 +85,6 @@
         <h1 class="display-2 mb-4">So simple :))</h1>
     </a>
     <h2 class="display-5 mb-4">Đang phát: Bên trên tầng lầu - Tăng Duy Tân</h2>
-    <a id="rest">Loading ...</a>
   </div>
 <!-- End of Features Section--></div>
 <footer class="mastfoot my-3">
@@ -121,7 +120,7 @@
 	 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	 
 	<!-- Main JS -->
-	<script src="js/app.min.js "></script>
+	<script type="text/javascript" src="js/app.min.js "></script>
 	<script src="//localhost:35729/livereload.js"></script>
  
     <!--
@@ -131,10 +130,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Thai Giang Simple Web :))</title>
-	<link rel="shortcut icon" href="/preview.jpg">
+	<link rel="shortcut icon" href="img/preview.jpg">
     <meta name="description" content="Thai Giang">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta property="og:image" content="preview.jpg">
+    <meta property="og:image" content="img/preview.jpg">
 
     <!-- External CSS -->
     <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
@@ -176,13 +175,11 @@
 		</form>
 	</div>
 	
-</div>	<nav id="header-navbar" class="navbar navbar-expand-lg py-4 navbar-transparent">
+</div> <nav id="header-navbar" class="navbar navbar-expand-lg py-4 navbar-transparent">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center text-white" href="/">
             <h3 class="font-weight-bolder mb-0">THAIGIANG</h3>
-        </a>
-        
-        
+        </a> 
     </div>
 </nav>
 
@@ -199,11 +196,10 @@
 			    </button>
 			  </div>
 			</div>
-
 		</form>
 	</div>
-	
 </div>	
+
 	<!-- External JS -->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 	<script src="vendor/bootstrap/popper.min.js"></script>
@@ -214,68 +210,17 @@
 	<script src="vendor/isotope/isotope.min.js"></script>
 	<script src="vendor/lightcase/lightcase.js"></script>
 	<script src="vendor/waypoints/waypoint.min.js"></script>
-	 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	 
 	<!-- Main JS -->
 	<script src="js/app.min.js "></script>
 	<script src="//localhost:35729/livereload.js"></script>
-    <style>
-        body{
-             -webkit-touch-callout: none;
-             -webkit-user-select: none;
-             -moz-user-select: none;
-             -ms-user-select: none;
-             -o-user-select: none;
-              user-select: none;
-            }
-   </style>
-           
-   <script>
-        function killCopy(e){
-              return false;
-        }
-   
-        function reEnable(){
-              return true;
-        }
-   
-        document.onselectstart=new Function ("return false");
-   
-        if (window.sidebar){
-              document.onmousedown=killCopy;
-              document.onclick=reEnable;
-        }
-   </script><script type="text/JavaScript">
-   var message="NoRightClicking"; function defeatIE() {if (document.all) {(message);return false;}} function defeatNS(e) {if (document.layers||(document.getElementById&&!document.all)) { if (e.which==2||e.which==3) {(message);return false;}}} if (document.layers) {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;} else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;} document.oncontextmenu=new Function("return false") 
-   </script>
-	<audio src="music.mp3" autoplay=""></audio>
 
-
-	<link href="https://cdn.leanhduc.pro.vn/utilities/block-adblock/style.css" rel="stylesheet">
-	<script type="text/javascript">
-	//<![CDATA[
-	// Say Hi to Adblock
-	function downloadJSAtOnload(){var e=document.createElement("script");e.src="antiblockads.js",document.body.appendChild(e)}window.addEventListener?window.addEventListener("load",downloadJSAtOnload,!1):window.attachEvent?window.attachEvent("onload",downloadJSAtOnload):window.onload=downloadJSAtOnload;
-	//]]>
-	</script>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-W0Z7BDC3WY"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	  gtag('config', 'G-W0Z7BDC3WY');
-	</script>
-
-	<audio src="music.mp3" autoplay=""></audio>
-
-
+	<!-- More features -->
+	<audio src="music/music.mp3" autoplay=""></audio>
 	<link href="https://cdn.leanhduc.pro.vn/utilities/block-adblock/style.css" rel="stylesheet">
-	<script type="text/javascript">
-	//<![CDATA[
-	// Say Hi to Adblock
-	function downloadJSAtOnload(){var e=document.createElement("script");e.src="antiblockads.js",document.body.appendChild(e)}window.addEventListener?window.addEventListener("load",downloadJSAtOnload,!1):window.attachEvent?window.attachEvent("onload",downloadJSAtOnload):window.onload=downloadJSAtOnload;
-	//]]>
-	</script>
-	
-<script src="antiblockads.js"></script></body><iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20220707/r20190131/zrt_lookup.html" style="display: none;"></iframe></html>
+</body>
+	<iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20220707/r20190131/zrt_lookup.html" style="display: none;"></iframe>
+</html>
